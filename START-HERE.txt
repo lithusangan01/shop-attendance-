@@ -1,0 +1,25 @@
+KIRUSHI COOL SPOT — GO LIVE FIX (SINGLE FILE)
+
+This version includes ALL the CSS and JavaScript inside one index.html file. No npm, Node, React, missing CSS/JS files or build tools are needed.
+
+VS CODE / GO LIVE:
+1. Download the ZIP and Extract All (do not open the website from inside the ZIP).
+2. Open the extracted Kirushi-Cool-Spot-GoLive-Fixed folder in VS Code.
+3. Right-click index.html > Open with Live Server (or click Go Live).
+4. In the browser open the exact URL displayed by Live Server (usually http://127.0.0.1:5500/index.html).
+5. Sign in using your EXISTING Kirushi Supabase email/password.
+6. If first asked, download the pre-upgrade JSON backup; confirm the file has reached Downloads before editing.
+
+GITHUB PAGES:
+Upload index.html to your repository root; enable Settings > Pages > Deploy from a branch > main > / (root). The same single file runs there.
+
+DATA SAFETY:
+This changes no database tables. It uses your EXISTING Supabase account and existing records. The account must be online for authentication and saving. Keep regular JSON backups outside GitHub. No website can guarantee absolutely zero data loss.
+
+IF IT STILL DOES NOT LOAD:
+- Check that the browser address ends with /index.html and that you extracted the ZIP.
+- Ctrl+Shift+R to hard refresh; try an Incognito window if you have old cached files.
+- Verify internet access to Supabase.
+- Take a screenshot of the visible error and open Chrome Developer Tools > Console (F12) to capture the first red error.
+
+NOT TESTED LIVE: We cannot sign into your private Supabase account to verify a real production write. Browser functionality can be tested with a mock cloud backend, but verify a non-payment attendance edit survives reload before trusting payment functions.
